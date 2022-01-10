@@ -71,16 +71,16 @@
 							<!--Insert your DB configuration-->
 							<jdbc>
 								<driver>com.mysql.cj.jdbc.Driver</driver>
-								<url>jdbc:mysql://localhost:3306/javatechie_youtube</url>
+								<url>jdbc:mysql://localhost:3306/billa</url>
 								<user>root</user>
-								<password>Password</password>
+								<password>Prashanth.009@</password>
 							</jdbc>
 							<generator>
 								<database>
 									<name>org.jooq.meta.mysql.MySQLDatabase</name>
 									<includes>.*</includes>
 									<excludes></excludes>
-									<inputSchema>javatechie_youtube</inputSchema>
+									<inputSchema>billa</inputSchema>
 								</database>
 								<generate>
 									<pojos>true</pojos>
@@ -91,11 +91,8 @@
 									<fluentSetters>true</fluentSetters>
 								</generate>
 								<target>
-									<packageName>
-										com.tej.JooQDemo.jooq.sample.model
-									</packageName>
 									<directory>
-										target/generated-sources/jooq
+										src/main/java/database
 									</directory>
 								</target>
 							</generator>

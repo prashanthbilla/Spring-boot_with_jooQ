@@ -1,0 +1,20 @@
+package com.billa.jooq;
+
+import com.billa.jooq.service.BookService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class SpringBootJooqApplication {
+
+    @Autowired
+    private BookService service;
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootJooqApplication.class, args);
+    }
+
+}

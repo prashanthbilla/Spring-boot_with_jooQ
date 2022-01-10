@@ -1,4 +1,4 @@
-package com.javatechie.jooq;
+package com.billa.jooq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
