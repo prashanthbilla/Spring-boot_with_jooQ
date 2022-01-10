@@ -2,7 +2,6 @@ package com.billa.jooq;
 
 import org.jooq.DSLContext;
 import org.jooq.generated.Tables;
-import org.jooq.generated.tables.Loginmodel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
