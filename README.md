@@ -77,7 +77,7 @@ Links:
 ```
 ###### Configuration files:
 
-###### application.yml:
+###### application.properties:
 
 ```
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
