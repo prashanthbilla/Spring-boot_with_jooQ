@@ -87,7 +87,7 @@ spring.datasource.password = ******
 server.port=9191
 ```
 
-By using above maven plugin, we can create pojo classess into perticular target file from the tables of billa databse by specifyng the path in directory within target tag in maven plugin.
+By using above maven plugin, we can create pojo classess into particular target file from the tables of billa databse by specifyng the path in directory within target tag in maven plugin.
 
 #### Working and functionality:
 
